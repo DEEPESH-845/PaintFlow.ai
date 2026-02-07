@@ -1,0 +1,19 @@
+{
+  "id": "HEATWAVE",
+  "name": "Heatwave",
+  "description": "Severe heatwave increases exterior paint demand by 35%.",
+  "impact": "Exterior paints deplete faster in North and Central regions.",
+  "affected_regions": [
+    "North",
+    "Central"
+  ],
+  "inventory_multiplier": 1.0,
+  "demand_multiplier": 1.35,
+  "dashboard_summary": {
+    "total_revenue_mtd": 6075000,
+    "stockout_count": 11,
+    "pending_transfers": 3,
+    "revenue_at_risk": 280000,
+    "avg_days_of_cover": 18.5
+  }
+}

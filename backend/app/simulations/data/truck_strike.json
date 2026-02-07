@@ -1,0 +1,19 @@
+{
+  "id": "TRUCK_STRIKE",
+  "name": "Truck Strike",
+  "description": "Nationwide trucking strike reduces inbound stock by 50% for 5 days.",
+  "impact": "Cascading stockouts across West and Central regions.",
+  "affected_regions": [
+    "West",
+    "Central"
+  ],
+  "inventory_multiplier": 0.5,
+  "demand_multiplier": 1.0,
+  "dashboard_summary": {
+    "total_revenue_mtd": 4500000,
+    "stockout_count": 15,
+    "pending_transfers": 5,
+    "revenue_at_risk": 625000,
+    "avg_days_of_cover": 12.5
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "EARLY_MONSOON",
+  "name": "Early Monsoon",
+  "description": "Monsoon arrives 2 weeks early, waterproofing demand surges 60%.",
+  "impact": "Waterproofing products deplete rapidly in West and South.",
+  "affected_regions": [
+    "West",
+    "South"
+  ],
+  "inventory_multiplier": 1.0,
+  "demand_multiplier": 1.6,
+  "dashboard_summary": {
+    "total_revenue_mtd": 7200000,
+    "stockout_count": 14,
+    "pending_transfers": 3,
+    "revenue_at_risk": 480000,
+    "avg_days_of_cover": 15.6
+  }
+}
